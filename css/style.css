@@ -1,0 +1,468 @@
+/* neue plak font  */
+
+@font-face {
+  font-family: myFont;
+  src: url(../fonts/neue-plak-light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(../fonts/neue-plak-regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(../fonts/neue-plak-semibold.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(../fonts/neue-plak-bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(../fonts/neue-plak-extended-black.ttf);
+  font-weight: 900;
+}
+
+/* neue plak font  */
+
+:root{
+  /* colors  */
+  --primary-color: #252A34;
+  --secondary-color: #ffffff;
+  --third-color: #31405A;
+  --accent-color-1: #08D9D6;
+  --accent-color-2: #FF2E63;
+  --details-color: #4A4F5A;
+  --text-color : #EAEAEA;
+  --dark-accent-color: #990747;
+  /* font */
+  --primary-font: myFont;
+  --secondary-font: 'Montserrat', sans-serif;
+  --third-font: 'Poppins', sans-serif;
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --bold: 700;
+  --black: 900;
+  /* extra  */
+  --transition: all .3s ease 0s;
+  --shadow-neon: 0 4px 8px 0 rgb(8 217 214 / 20%), 0 6px 20px 0 rgb(8 217 214 / 19%);
+  --shadow-pink: 0 4px 8px 0 rgb(255 46 99 / 20%), 0 6px 20px 0 rgb(255 46 99 / 19%);
+}
+
+html{
+  scroll-behavior: smooth !important;
+}
+
+/* scrollbar  */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  transition: var(--transition);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-color);
+}
+
+/* scrollbar  */
+
+/* reboot  */
+
+body{
+  /* sizes  */
+  --banner-title: 80px;
+  --title: 50px;
+  --sub-title: 40px;
+  --medium-title: 24px;
+  --semi-title: 20px;
+  --small-title: 18px;
+  --small-text: 14px;
+  --text: 16px;
+  /* other styles  */
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  font-size: var(--text);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  font-family: var(--primary-font);
+  text-transform: capitalize;
+}
+
+h2, h3, h4, h5, h6{
+  text-transform: uppercase;
+}
+
+p{
+  margin: 0;
+  font-family: var(--third-font);
+  font-weight: var(--light);
+  color: var(--text-color);
+}
+
+a{
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+a:hover{
+  color: var(--accent-color);
+}
+
+button{
+  font-family: var(--secondary-font);
+  font-weight: var(--medium);
+}
+
+/* reboot  */
+
+/* title  */
+
+.banner-title {
+  font-size: var(--banner-title);
+  font-weight: var(--black);
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: var(--title);
+}
+
+.sub-title {
+  font-size: var(--sub-title);
+}
+
+.medium-title {
+  font-size: var(--medium-title);
+}
+
+.semi-title {
+  font-size: var(--semi-title);
+}
+
+.small-title {
+  font-size: var(--small-title);
+}
+
+/* title  */
+
+/* button  */
+
+button{
+  font-family: var(--secondary-font);
+  font-weight: var(--medium);
+  font-size: var(--text);
+  color: var(--primary-color);
+}
+
+.primary-button,
+.link-button{
+  padding: 8px 25px;
+  display: inline-block;
+  background: none;
+  border: 2px solid var(--accent-color-1);
+  color: var(--accent-color-1);
+  text-transform: uppercase;
+  transition: var(--transition);
+}
+
+.primary-button:hover {
+  color: var(--primary-color);
+  background-color: var(--accent-color-1);
+  box-shadow: var(--shadow-neon);
+}
+
+.link-button {
+  border: 2px solid var(--accent-color-2);
+  color: var(--accent-color-2);
+}
+
+.link-button:hover {
+  color: var(--black-color);
+  background-color: var(--accent-color-2);
+  box-shadow: var(--shadow-pink);
+}
+
+/* button  */
+
+/* margins  */
+
+.mt-10{
+  margin-top: 10px;
+}
+
+.mt-20{
+  margin-top: 20px;
+}
+
+.mt-30{
+  margin-top: 30px;
+}
+
+.mt-40{
+  margin-top: 40px;
+}
+
+.mb-10{
+  margin-bottom: 10px;
+}
+
+.mb-20{
+  margin-bottom: 20px;
+}
+
+.mb-30{
+  margin-bottom: 30px;
+}
+
+.mb-40{
+  margin-bottom: 40px;
+}
+
+.my-10{
+  margin: 10px 0;
+}
+
+.my-20{
+  margin: 20px 0;
+}
+
+.my-30{
+  margin: 30px 0;
+}
+
+.my-40{
+  margin: 40px 0;
+}
+
+/* margins  */
+
+/* paddings  */
+
+.pt-80{
+  padding-top: 80px;
+}
+.pb-80{
+  padding-bottom: 80px;
+}
+.py-80{
+  padding: 80px 0;
+}
+
+.pt-100{
+  padding-top: 100px;
+}
+.pb-100{
+  padding-bottom: 100px;
+}
+.py-100{
+  padding: 100px 0;
+}
+
+.pt-10{
+  padding-top: 10px;
+}
+
+.pt-20{
+  padding-top: 20px;
+}
+
+.pt-30{
+  padding-top: 30px;
+}
+
+.pt-40{
+  padding-top: 40px;
+}
+
+.pb-10{
+  padding-bottom: 10px;
+}
+
+.pb-20{
+  padding-bottom: 20px;
+}
+
+.pb-30{
+  padding-bottom: 30px;
+}
+
+.pb-40{
+  padding-bottom: 40px;
+}
+
+.py-10{
+  padding: 10px 0;
+}
+
+.py-20{
+  padding: 20px 0;
+}
+
+.py-30{
+  padding: 30px 0;
+}
+
+.py-40{
+  padding: 40px 0;
+}
+
+/* paddings  */
+
+.cursor{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--accent-color-1);
+  transition: all 0.1s;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  mix-blend-mode: difference;
+  z-index: 5;
+}
+
+/* navbar  */
+
+.c-navbar{
+  transition: var(--transition);
+}
+
+.c-navbar.shrink{
+  padding: 0;
+  background-color: var(--primary-color);
+}
+
+.navbar-toggler{
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+.navbar-toggler:focus{
+  box-shadow: none !important;
+}
+
+.fa-github {
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.logo{
+  width: 120px;
+}
+
+.menu-icon{
+  font-size: 35px;
+  color: var(--accent-color-2);
+}
+
+.menu li a{
+  margin: 0 20px;
+  font-family: var(--third-font);
+  font-weight: var(--medium);
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  transition: var(--transition);
+}
+
+.menu li a:hover{
+  color: var(--accent-color-2);
+}
+
+.menu li a:focus {
+  color: var(--accent-color-2);
+}
+
+.message-icon{
+  width: 50px;
+}
+
+
+/* navbar  */
+
+/* home */
+
+.home{
+  min-height: 100vh;
+  background-image: url(../img/banner/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  position: relative;
+}
+
+.banner-content h1 {
+  position: relative;
+  z-index: 1;
+}
+
+.focus{
+  position: absolute;
+  width: 350px;
+  height: 40px;
+  right: 31%;
+  bottom: 42%;
+  background-color: var(--dark-accent-color);
+  transform: rotate(350deg);
+  z-index: -1;
+}
+
+.socials li a i,
+.social-sidebar li a i {
+  color: var(--text-color);
+  font-size: 30px;
+  opacity: .5;
+  transition: var(--transition);
+}
+
+.socials li a i:hover {
+  opacity: 1;
+  color: var(--accent-color-1);
+}
+
+.social-sidebar li a i:hover{
+  opacity: 1;
+  color: var(--accent-color-1);
+}
+
+.social-sidebar{
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+}
+
+/* home */
+
+/* about  */
+
+
+
+/* about  */
+
+/* skill  */
+
+
+
+/* skill  */

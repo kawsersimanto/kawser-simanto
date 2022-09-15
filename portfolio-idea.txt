@@ -1,0 +1,105 @@
+font :
+	- roboto :
+		font-family: 'Roboto', sans-serif;
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+	- roboto mono :
+		font-family: 'Roboto Mono', monospace;
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+
+logo :
+	- ubuntu
+		font-family: 'Ubuntu', sans-serif;
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+		
+color :
+	primary : #FF2E63 (red)
+		opt : #FD2155
+	secondary : #08D9D6 (neon blue)
+		opt : 08FDD8
+
+	third : #252A34
+	ash : # EAEAEA
+	black : #1D1D1D
+	light-blac : #2B2B2B
+
+sections :
+	header :
+		Logo
+
+		Home
+		about
+		service
+		portfolio
+		review
+		
+		socials
+		contact (button) - contact me!
+
+	banner:
+		(title) - Hi,
+		 I'm Kawser Simanto
+		(sub-title) - Full Stack Developer
+		(button) - contact me
+		extra - add feature of hover effect with blend mode, custom cursor
+
+	about me :
+
+		I'm a WordPress specialist and a web developer. 
+		Extremely Passionate and dedicated to my work. 
+		Trying to improve and develop the web in a creative way. 
+		Over the years, I've made an effort to continuously learn new skills and modern technologies.
+
+		I'm a WordPress specialist and a web developer. 
+		Extremely Passionate and dedicated to my work. 
+		Trying to improve and develop the web in a creative way. 
+		Over the years, I've made an effort to continuously learn new skills and modern technologies. 
+		Hoping to work with you, further my knowledge and also build a good relationship.
+
+	skills & experience :
+
+		html, css, bootstrap, javascript, jquery, wordpress
+
+	service
+		- web design
+		- web development
+		- wordpress
+		- e-mail template
+		- backup
+		- speed optimization
+
+	portfolio
+		- pixal - https://efood.kawsersimanto.com/
+		- maxon - https://maxon.kawsersimanto.com/
+		- nipro - https://nipro-agency.kawsersimanto.com/
+		- e-school - https://e-school.kawsersimanto.com/
+		- dg - https://dg-world.kawsersimanto.com/
+		- best app - https://bestapp.kawsersimanto.com/
+		- woostify - https://store-fashion.kawsersimanto.com/
+		- kadence - https://resturant.kawsersimanto.com/
+		- woodmart - https://electronics.kawsersimanto.com/
+		- taxicab - https://taxicab.kawsersimanto.com/
+
+	
+	reviews
+		- akib
+		- momin
+		- ranjan
+		- antor
+		- minhaz
+
+
+	contact
+		- Please feel free to contact me. Thanks For Visiting, Hoping that you will have a Great Day.
+		- icon (call me now)
+		- icon (chat with me)
+		- icon (whatsapp)
+
+
+	footer
+		- socials
+		- copyright
+
+I'm a WordPress specialist and a web developer. Extremely Passionate and dedicated to my work. Trying to improve and develop the web in a creative way. Over the years, I've made an effort to continuously learn new skills and modern technologies. Hoping to work with you, further my knowledge and also build a good relationship.

@@ -1,0 +1,704 @@
+/* Extra small devices */
+@media (min-width:320px) and (max-width: 575.98px) { 
+  body {
+    /* sizes  */
+    --banner-title: 30px;
+    --title: 28px;
+    --sub-title: 22px;
+    --medium-title: 20px;
+    --semi-title: 18px;
+    --small-title: 17px;
+  }
+
+  /* margins  */
+
+  .mt-10{
+    margin-top: 10px;
+  }
+
+  .mt-20{
+    margin-top: 12px;
+  }
+
+  .mt-30{
+    margin-top: 18px;
+  }
+
+  .mt-40{
+    margin-top: 23px;
+  }
+
+  .mb-10{
+    margin-bottom: 10px;
+  }
+
+  .mb-20{
+    margin-bottom: 12px;
+  }
+
+  .mb-30{
+    margin-bottom: 18px;
+  }
+
+  .mb-40{
+    margin-bottom: 23px;
+  }
+
+  .my-10{
+    margin: 10px 0;
+  }
+
+  .my-20{
+    margin: 12px 0;
+  }
+
+  .my-30{
+    margin: 18px 0;
+  }
+
+  .my-40{
+    margin: 23px 0;
+  }
+
+  /* margins  */
+
+  /* paddings  */
+
+  .pt-80{
+    padding-top: 20px;
+  }
+  .pb-80{
+    padding-bottom: 20px;
+  }
+  .py-80{
+    padding: 20px 0;
+  }
+  
+  .pt-100{
+    padding-top: 30px;
+  }
+  .pb-100{
+    padding-bottom: 30px;
+  }
+  .py-100{
+    padding: 30px 0;
+  }
+
+  .pt-10{
+    padding-top: 10px;
+  }
+
+  .pt-20{
+    padding-top: 12px;
+  }
+
+  .pt-30{
+    padding-top: 18px;
+  }
+
+  .pt-40{
+    padding-top: 23px;
+  }
+
+  .pb-10{
+    padding-bottom: 10px;
+  }
+
+  .pb-20{
+    padding-bottom: 12px;
+  }
+
+  .pb-30{
+    padding-bottom: 18px;
+  }
+
+  .pb-40{
+    padding-bottom: 23px;
+  }
+
+  .py-10{
+    padding: 10px 0;
+  }
+
+  .py-20{
+    padding: 12px 0;
+  }
+
+  .py-30{
+    padding: 18px 0;
+  }
+
+  .py-40{
+    padding: 23px 0;
+  }
+
+  /* paddings  */
+
+  /* navbar  */
+
+  .c-navbar {
+    background-color: var(--primary-color);
+  }
+
+  .logo{
+    width: 55px;
+  }
+
+  .message-icon {
+    width: 40px;
+  }
+
+  .menu li a{
+    margin: 0;
+  }
+
+  /* navbar  */
+
+  /* home  */
+
+  .home {
+    min-height: 60vh;
+  }
+
+  .pink{
+    color: var(--accent-color-2);
+  }
+
+  /* home  */
+
+  /* navbar  */
+  
+
+
+  /* navbar  */
+
+  /* about  */
+
+  
+
+  /* about  */
+
+}
+
+/* Small devices*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  body {
+    /* sizes  */
+    --banner-title: 40px;
+    --title: 30px;
+    --sub-title: 25px;
+    --medium-title: 20px;
+    --semi-title: 18px;
+    --small-title: 17px;
+  }
+
+  /* margins  */
+
+  .mt-10{
+    margin-top: 10px;
+  }
+
+  .mt-20{
+    margin-top: 15px;
+  }
+
+  .mt-30{
+    margin-top: 20px;
+  }
+
+  .mt-40{
+    margin-top: 28px;
+  }
+
+  .mb-10{
+    margin-bottom: 10px;
+  }
+
+  .mb-20{
+    margin-bottom: 15px;
+  }
+
+  .mb-30{
+    margin-bottom: 20px;
+  }
+
+  .mb-40{
+    margin-bottom: 28px;
+  }
+
+  .my-10{
+    margin: 10px 0;
+  }
+
+  .my-20{
+    margin: 15px 0;
+  }
+
+  .my-30{
+    margin: 20px 0;
+  }
+
+  .my-40{
+    margin: 28px 0;
+  }
+
+  /* margins  */
+
+  /* paddings */
+
+  .pt-80{
+    padding-top: 30px;
+  }
+  .pb-80{
+    padding-bottom: 30px;
+  }
+  .py-80{
+    padding: 30px 0;
+  }
+  
+  .pt-100{
+    padding-top: 40px;
+  }
+  .pb-100{
+    padding-bottom: 40px;
+  }
+  .py-100{
+    padding: 40px 0;
+  }
+
+  .pt-10{
+    padding-top: 10px;
+  }
+
+  .pt-20{
+    padding-top: 15px;
+  }
+
+  .pt-30{
+    padding-top: 20px;
+  }
+
+  .pt-40{
+    padding-top: 28px;
+  }
+
+  .pb-10{
+    padding-bottom: 10px;
+  }
+
+  .pb-20{
+    padding-bottom: 15px;
+  }
+
+  .pb-30{
+    padding-bottom: 20px;
+  }
+
+  .pb-40{
+    padding-bottom: 28px;
+  }
+
+  .py-10{
+    padding: 10px 0;
+  }
+
+  .py-20{
+    padding: 15px 0;
+  }
+
+  .py-30{
+    padding: 20px 0;
+  }
+
+  .py-40{
+    padding: 28px 0;
+  }
+
+  /* paddings */
+
+  /* navbar */
+
+  .logo{
+    width: 60px;
+  }
+
+  .message-icon {
+    width: 40px;
+  }
+
+  .menu li a{
+    margin: 0;
+  }
+  
+  /* navbar */
+
+  /* home  */
+
+  .focus {
+    width: 170px;
+    height: 25px;
+    right: 50%;
+  }
+
+  /* home  */
+
+  /* navbar  */
+  
+  .c-navbar {
+    background-color: var(--primary-color);
+  }
+
+  /* navbar  */
+
+  /* about  */
+
+  
+
+  /* about  */
+
+}
+
+/* Medium devices*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  body {
+    /* sizes  */
+    --banner-title: 50px;
+    --title: 32px;
+    --sub-title: 28px;
+    --medium-title: 21px;
+    --semi-title: 19px;
+    --small-title: 17px;
+  }
+
+  /* margins  */
+
+  .mt-10{
+    margin-top: 10px;
+  }
+
+  .mt-20{
+    margin-top: 15px;
+  }
+
+  .mt-30{
+    margin-top: 20px;
+  }
+
+  .mt-40{
+    margin-top: 28px;
+  }
+
+  .mb-10{
+    margin-bottom: 10px;
+  }
+
+  .mb-20{
+    margin-bottom: 15px;
+  }
+
+  .mb-30{
+    margin-bottom: 20px;
+  }
+
+  .mb-40{
+    margin-bottom: 28px;
+  }
+
+  .my-10{
+    margin: 10px 0;
+  }
+
+  .my-20{
+    margin: 15px 0;
+  }
+
+  .my-30{
+    margin: 20px 0;
+  }
+
+  .my-40{
+    margin: 28px 0;
+  }
+
+  /* margins  */
+
+  /* paddings  */
+
+  .pt-80{
+    padding-top: 40px;
+  }
+  .pb-80{
+    padding-bottom: 40px;
+  }
+  .py-80{
+    padding: 40px 0;
+  }
+  
+  .pt-100{
+    padding-top: 60px;
+  }
+  .pb-100{
+    padding-bottom: 60px;
+  }
+  .py-100{
+    padding: 60px 0;
+  }
+
+  .pt-10{
+    padding-top: 10px;
+  }
+
+  .pt-20{
+    padding-top: 15px;
+  }
+
+  .pt-30{
+    padding-top: 20px;
+  }
+
+  .pt-40{
+    padding-top: 28px;
+  }
+
+  .pb-10{
+    padding-bottom: 10px;
+  }
+
+  .pb-20{
+    padding-bottom: 15px;
+  }
+
+  .pb-30{
+    padding-bottom: 20px;
+  }
+
+  .pb-40{
+    padding-bottom: 28px;
+  }
+
+  .py-10{
+    padding: 10px 0;
+  }
+
+  .py-20{
+    padding: 15px 0;
+  }
+
+  .py-30{
+    padding: 20px 0;
+  }
+
+  .py-40{
+    padding: 28px 0;
+  }
+
+  /* paddings  */
+
+  /* navbar  */
+
+  .c-navbar {
+    background-color: var(--primary-color);
+  }
+  
+  .menu li a{
+    margin: 0;
+  }
+
+  /* navbar  */
+
+  /* home  */
+
+  .focus {
+    width: 211px;
+    height: 35px;
+    right: 54%;
+    bottom: 40%;
+  }
+
+  /* home  */
+
+  /* about  */
+
+  
+
+  /* about  */
+
+}
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  body {
+    /* sizes  */
+    --banner-title: 55px;
+    --title: 40px;
+    --sub-title: 30px;
+    --medium-title: 24px;
+    --semi-title: 20px;
+    --small-title: 18px;
+  }
+
+  /* margins  */
+
+  .mt-10{
+    margin-top: 10px;
+  }
+
+  .mt-20{
+    margin-top: 20px;
+  }
+
+  .mt-30{
+    margin-top: 25px;
+  }
+
+  .mt-40{
+    margin-top: 35px;
+  }
+
+  .mb-10{
+    margin-bottom: 10px;
+  }
+
+  .mb-20{
+    margin-bottom: 20px;
+  }
+
+  .mb-30{
+    margin-bottom: 25px;
+  }
+
+  .mb-40{
+    margin-bottom: 35px;
+  }
+
+  .my-10{
+    margin: 10px 0;
+  }
+
+  .my-20{
+    margin: 20px 0;
+  }
+
+  .my-30{
+    margin: 25px 0;
+  }
+
+  .my-40{
+    margin: 35px 0;
+  }
+
+  /* margins  */
+
+  /* paddings  */
+
+  .pt-80{
+    padding-top: 60px;
+  }
+  .pb-80{
+    padding-bottom: 60px;
+  }
+  .py-80{
+    padding: 60px 0;
+  }
+  
+  .pt-100{
+    padding-top: 80px;
+  }
+  .pb-100{
+    padding-bottom: 80px;
+  }
+  .py-100{
+    padding: 80px 0;
+  }
+
+  .pt-10{
+    padding-top: 10px;
+  }
+
+  .pt-20{
+    padding-top: 20px;
+  }
+
+  .pt-30{
+    padding-top: 25px;
+  }
+
+  .pt-40{
+    padding-top: 35px;
+  }
+
+  .pb-10{
+    padding-bottom: 10px;
+  }
+
+  .pb-20{
+    padding-bottom: 20px;
+  }
+
+  .pb-30{
+    padding-bottom: 25px;
+  }
+
+  .pb-40{
+    padding-bottom: 35px;
+  }
+
+  .py-10{
+    padding: 10px 0;
+  }
+
+  .py-20{
+    padding: 20px 0;
+  }
+
+  .py-30{
+    padding: 25px 0;
+  }
+
+  .py-40{
+    padding: 35px 0;
+  }
+
+  /* paddings  */
+
+  /* home  */
+
+  .focus {
+    width: 229px;
+    height: 40px;
+    right: 35%;
+    bottom: 42%;
+  }
+
+  /* home  */
+
+  /* about  */
+
+  
+
+  /* about  */
+
+}
+
+/* Extra large devices*/
+@media (min-width: 1200px) and (max-width:1399.98px) { 
+  body {
+    /* sizes  */
+    --banner-title: 70px;
+  }
+  /* home  */
+
+  .focus {
+    width: 273px;
+    height: 40px;
+    right: 33%;
+    bottom: 42%;
+  }
+
+  /* home  */
+}
+
+/* Extra extra large devices*/
+@media (min-width: 1400px) { 
+
+}
