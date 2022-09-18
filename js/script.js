@@ -71,7 +71,7 @@ contactForm.addEventListener("submit", (e) => {
   const email = document.querySelector(".email").value;
   const message = document.querySelector(".message").value;
   Email.send({
-    SecureToken: "C973D7AD-F097-4B95-91F4-40ABC5567812",
+    SecureToken: "707a3850-4a8d-447c-a454-72792c698224",
     To: email,
     Subject: `new message from ${name}`,
     From: "kawsersimanto@gmail.com",
