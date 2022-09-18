@@ -191,6 +191,12 @@
   }
   /* counter  */
 
+  /* slider  */
+  .slider-content {
+    padding: 20px;
+  }
+  /* slider  */
+
 }
 
 /* Small devices*/
@@ -381,6 +387,12 @@
     border: 0;
   }
   /* counter  */
+
+  /* slider  */
+  .slider-content {
+    padding: 20px;
+  }
+  /* slider  */
 
 }
 
@@ -716,6 +728,12 @@
   
 
   /* about  */
+
+  /* slider  */
+  .slider-content {
+    padding: 25px;
+  }
+  /* slider  */
 
 }
 

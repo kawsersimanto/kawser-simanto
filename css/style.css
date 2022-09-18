@@ -44,6 +44,7 @@
   --details-color: #4A4F5A;
   --text-color : #EAEAEA;
   --dark-accent-color: #990747;
+  --ash-color: #eaeaea66;
   /* font */
   --primary-font: myFont;
   --secondary-font: 'Montserrat', sans-serif;
@@ -577,3 +578,28 @@ button{
 }
 
 /* counter  */
+
+/* review  */
+
+.slider-content {
+  /* min-height: 400px; */
+  padding: 40px;
+  background-color: var(--third-shade-color);
+  border-radius: 20px;
+}
+
+.slider-content img {
+  margin: 0 auto; 
+  border-radius: 50%;
+  border: 5px solid var(--accent-color-2);
+}
+
+.profession{
+  color: var(--ash-color);
+}
+
+.owl-carousel .owl-item img {
+  width: 150px;
+}
+
+/* review  */

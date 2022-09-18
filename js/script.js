@@ -31,3 +31,32 @@ $(".counter").counterUp({
   delay: 10,
   time: 1000,
 });
+
+// owl carousel
+$(".owl-carousel").owlCarousel({
+  loop: true,
+  margin: 40,
+  nav: false,
+  dots: false,
+  responsiveClass: true,
+  responsive: {
+    0: {
+      items: 1,
+      nav: true,
+    },
+    600: {
+      margin: 20,
+      items: 1,
+      nav: false,
+    },
+    768: {
+      margin: 30,
+      items: 2,
+      nav: false,
+    },
+    1000: {
+      items: 3,
+      loop: true,
+    },
+  },
+});
