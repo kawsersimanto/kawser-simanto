@@ -60,3 +60,21 @@ $(".owl-carousel").owlCarousel({
     },
   },
 });
+
+// smtp code
+
+const contactForm = document.querySelector(".contact-form");
+
+contactForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const name = document.querySelector(".name");
+  const email = document.querySelector(".email");
+  const message = document.querySelector(".message");
+  Email.send({
+    SecureToken: "C973D7AD-F097-4B95-91F4-40ABC5567812",
+    To: email,
+    subject: name,
+    From: "kawsersimanto@gmail.com",
+    Body: message,
+  }).then((message) => alert(message));
+});

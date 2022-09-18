@@ -189,6 +189,10 @@
   .counter-content {
     border: 0;
   }
+
+  .counter-row {
+    border-radius: 0;
+  }
   /* counter  */
 
   /* slider  */
@@ -196,6 +200,14 @@
     padding: 20px;
   }
   /* slider  */
+
+  /* contact  */
+
+  .contact-button{
+    width: 100%;
+  }
+
+  /* contact  */
 
 }
 
@@ -368,12 +380,6 @@
   }
 
   /* navbar  */
-
-  /* about  */
-
-  
-
-  /* about  */
 
   /* service  */
   .service-item {

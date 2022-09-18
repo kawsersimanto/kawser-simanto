@@ -168,6 +168,11 @@ button{
   font-size: var(--small-title);
 }
 
+.extra-title {
+  color: var(--accent-color-2);
+  font-weight: var(--medium);
+}
+
 /* title  */
 
 /* button  */
@@ -402,7 +407,6 @@ button{
   width: 50px;
 }
 
-
 /* navbar  */
 
 /* home */
@@ -459,11 +463,6 @@ button{
 
 /* home */
 
-/* about  */
-
-
-
-/* about  */
 
 /* skill  */
 
@@ -603,3 +602,85 @@ button{
 }
 
 /* review  */
+
+/* contact  */
+
+.address h5 {
+  color: var(--accent-color-2);
+}
+
+.address p {
+  font-size: var(--small-text);
+}
+
+.contact-icon{
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 30px;
+  background: var(--accent-color-2);
+  border-radius: 40px;
+}
+
+.form-control {
+  padding: 15px 20px;
+  font-family: var(--primary-font);
+  background-color: transparent;
+  border: 1px solid var(--accent-color-2);
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: var(--accent-color-2);
+  background-color: transparent;
+  color: var(--accent-color-2);
+}
+
+.contact-button{
+  background-color: var(--accent-color-2);
+  color: var(--secondary-color);
+  width: 25%;
+}
+
+.contact-button:hover {
+  background-color: transparent;
+  color: var(--accent-color-2);
+}
+
+/* contact  */
+
+/* footer  */
+
+footer {
+  padding: 20px 0;
+  background-color: var(--third-shade-color);
+}
+
+.footer-icon{
+  font-size: 30px;
+  color: var(--secondary-color);
+  transition: var(--transition);
+}
+
+.footer-icon:hover{
+  color: var(--accent-color-1);
+}
+
+small {
+  text-transform: capitalize;
+}
+
+small a {
+  color: var(--secondary-color);
+  /* text-decoration: underline; */
+  transition: var(--transition);
+}
+
+small a:hover {
+  color: var(--accent-color-2);
+}
+
+.footer-socials ul {
+  margin: 0;
+}
+
+/* footer  */
