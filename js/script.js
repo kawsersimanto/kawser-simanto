@@ -73,7 +73,7 @@ contactForm.addEventListener("submit", (e) => {
   Email.send({
     SecureToken: "C973D7AD-F097-4B95-91F4-40ABC5567812",
     To: email,
-    subject: name,
+    subject: `new message from ${name}`,
     From: "kawsersimanto@gmail.com",
     Body: message,
   }).then((message) => alert(message));

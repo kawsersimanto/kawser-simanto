@@ -626,6 +626,7 @@ button{
   font-family: var(--primary-font);
   background-color: transparent;
   border: 1px solid var(--accent-color-2);
+  color: var(--accent-color-2);
 }
 
 .form-control:focus {
