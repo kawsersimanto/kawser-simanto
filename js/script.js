@@ -67,9 +67,9 @@ const contactForm = document.querySelector(".contact-form");
 
 contactForm.addEventListener("submit", (e) => {
   e.preventDefault();
-  const name = document.querySelector(".name");
-  const email = document.querySelector(".email");
-  const message = document.querySelector(".message");
+  const name = document.querySelector(".name").value;
+  const email = document.querySelector(".email").value;
+  const message = document.querySelector(".message").value;
   Email.send({
     SecureToken: "C973D7AD-F097-4B95-91F4-40ABC5567812",
     To: email,
